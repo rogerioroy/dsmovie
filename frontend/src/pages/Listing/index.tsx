@@ -35,7 +35,6 @@ const handlePageChange = (newPageNumber : number) => {
 
     return (
         <>
- 
             <Pagination page = {page} onChange={handlePageChange} />
 
             <div className="container">
